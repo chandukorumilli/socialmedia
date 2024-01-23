@@ -1,0 +1,29 @@
+.seat{
+    background-color: green;
+    height: 25px;
+    width: 30px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.seat.selected{
+    background-color: brown;
+}
+
+.seat.occupied{
+    background-color: pink;
+}
+
+.seat:nth-of-type(4n){
+    margin-right: 30px;
+}
+
+.screen{
+    background-color: aqua;
+    height: 70px;
+    width: 100%;
+    margin: 15px -30px;
+    transform: perspective(400px) rotateX(-45deg);
+}
+
